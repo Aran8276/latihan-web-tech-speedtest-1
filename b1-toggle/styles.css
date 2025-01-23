@@ -1,0 +1,43 @@
+body {
+  margin: 30px;
+}
+
+.switch-base {
+  display: flex;
+  background-color: #2a67ff;
+  padding-left: 45px;
+  padding-right: 45px;
+  width: 0px;
+  height: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+}
+
+.off {
+  background-color: #2a67ff;
+}
+
+.on {
+  background-color: cyan;
+}
+
+.ball-base {
+  transition: all;
+  position: relative;
+  right: 30px;
+  background-color: #bed0ff;
+  border-radius: 100%;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.ball-off {
+  transition: all;
+  background-color: cyan;
+}
+.ball-on {
+  left: 12px;
+  transition: all;
+  background-color: #2a67ff;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="">
+        <h1>Simple Image Filter</h1>
+        <div class="container">
+          <div class="">
+            <img id="imageInput" src="./assets/athena.jpg" alt="Athena" />
+          </div>
+          <div id="payload" class="darken"></div>
+          <img id="imageValue2" class="image" src="./assets/athena.jpg" alt="Athena" />
+        </div>
+        <label for="imageValue">Image</label>
+        <select onchange="handleImageChange()" id="imageValue">
+          <option value="Athena.jpg">Athena.jpg</option>
+          <option value="theKiss.jpg">theKiss.jpg</option>
+          <option value="young-pearl.jpg">young-pearl.jpg</option>
+          <option value="mona-lisa.jpg">mona-lisa.jpg</option>
+        </select>
+        <label for="imageValue">Filter</label>
+        <select onchange="handleFilterChange()" id="filterValue">
+          <option value="default">default</option>
+          <option value="lighten">lighten</option>
+          <option value="darken">darken</option>
+        </select>
+      </div>
+    </main>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

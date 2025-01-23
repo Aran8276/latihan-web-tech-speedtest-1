@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.chatbox {
+  @apply flex;
+  @apply space-x-4;
+  @apply p-4;
+  @apply bg-gray-200;
+  /* @apply text-white; */
+}

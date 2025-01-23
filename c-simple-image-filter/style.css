@@ -1,0 +1,59 @@
+body {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  background-color: green;
+  width: 480px;
+  height: 300px;
+}
+
+.default {
+  left: 20px;
+  top: 0px;
+  z-index: 300;
+  position: relative;
+  min-height: 300px;
+  min-width: 200px;
+}
+
+.darken {
+  left: 20px;
+  top: 0px;
+  z-index: 300;
+  position: relative;
+  min-height: 300px;
+  min-width: 200px;
+  background: rgba(0, 0, 0, 0.492);
+}
+
+.lighten {
+  left: 20px;
+  top: 0px;
+  z-index: 300;
+  position: relative;
+  min-height: 300px;
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.492);
+}
+
+.image {
+  position: relative;
+  right: 200px;
+}
+
+.div-image-container {
+  z-index: 1;
+  margin-left: 30px;
+  /* background: url("./assets/athena.jpg"); */
+  /* background: rgb(0, 0, 0); */
+  min-height: 300px;
+  min-width: 200px;
+}
+
+.container img {
+  margin-left: 20px;
+}
